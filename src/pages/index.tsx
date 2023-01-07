@@ -3,6 +3,7 @@ import tech from '../assets/tech.png';
 import product from '../assets/product.png'
 import plan from '../assets/plan.png'
 import team from '../assets/team.png'
+import logo from '../assets/logo.png'
 
 import "../styles/home.less";
 import {Button, Popover} from "antd"
@@ -43,7 +44,9 @@ export default function ModifyPage(props: any) {
     <div className='main font-white'>
       <div className="fixed top-nav">
         <div className='subnav options'>
-          <div style={{marginRight: '20px'}} onClick={() => jumpAndFlicker('home')}>POLKADOT-HACHTHON-2022-WINTER</div>
+          <div style={{marginRight: '30px'}} onClick={() => jumpAndFlicker('home')}>
+            <img src={logo} alt="" />
+          </div>
           <ul>
             <li className="options">
               <div onClick={() => jumpAndFlicker('intro')}>Introduction</div>
