@@ -135,7 +135,8 @@ export default function ModifyPage(props: any) {
               <div className='team-image'><img src={team} alt="" /></div>
               <div className='team-text'>
                 <div>Possess rich experience in Move-related development and teaching</div>
-                <div>Has many move ecological partnersFamiliar with the Polkadot ecology</div>
+                <div>Has many move ecological partners</div>
+                <div>Familiar with the Polkadot ecology</div>
                 <div>Have a strong international community</div>
               </div>
             </div>
