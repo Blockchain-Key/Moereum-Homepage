@@ -123,7 +123,7 @@ export default function ModifyPage(props: any) {
         <div id="plan"></div>
         <section className="plan-bg">
           <div className='plan'>
-            <div className="font-100 absolute">Plan to dev</div>
+            <div className="font-100 absolute">Roadmap</div>
             <img src={plan} alt="" />
           </div>
         </section>
